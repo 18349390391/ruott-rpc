@@ -22,7 +22,7 @@
 
 **系统架构图如下：**
 
-<img src="./README.assets/自定义RPC技术架构图.jpg" alt="自定义RPC技术架构图" style="zoom:13%;" />
+<img src="https://github.com/18349390391/ruott-public-imgs/blob/main/ruott-rpc-rpc_framework.jpg?raw=true" alt="自定义RPC技术架构图" style="zoom:13%;" />
 
 
 
@@ -32,7 +32,9 @@
 
 # 二、项目时序图
 
-![RPC时序图](./README.assets/RPC时序图.jpg)
+
+
+<img src="https://github.com/18349390391/ruott-public-imgs/blob/main/ruott-rpc-rpc_timing_diagram.jpg?raw=true" alt="自定义RPC技术架构图" style="zoom:13%;" />
 
 
 
@@ -54,7 +56,7 @@
 
 **示例图：**
 
-![自定义TCP协议](./README.assets/自定义TCP协议.jpg)
+<img src="https://github.com/18349390391/ruott-public-imgs/blob/main/ruott-rpc-rpc_tpc_protocol.jpg?raw=true" alt="自定义RPC技术架构图" style="zoom:13%;" />
 
 
 
