@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: provide-user
+server:
+  port: 8081
+ruott:
+  rpc:
+    server-name: ${spring.application.name}
+    host: 127.0.0.1
+    port: 28001
+    serializer: jdk
+    retry-config:
+      strategy: 'fixedTimeRetry'
+    registry-config:
+      registrar: 'etcd'
+      address: http://127.0.0.1:2379

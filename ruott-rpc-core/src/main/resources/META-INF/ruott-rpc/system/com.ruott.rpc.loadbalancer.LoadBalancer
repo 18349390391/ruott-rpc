@@ -1,0 +1,3 @@
+random=com.ruott.rpc.loadbalancer.RandomLoadBalancer
+roundRobin=com.ruott.rpc.loadbalancer.RoundRobinLoadBalancer
+consistentHash=com.ruott.rpc.loadbalancer.ConsistentHashLoadBalancer

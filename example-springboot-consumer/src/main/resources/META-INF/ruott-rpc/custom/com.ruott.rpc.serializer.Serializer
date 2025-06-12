@@ -1,0 +1,1 @@
+messagePack=org.ruott.consumer.serializer.MessagePackSerializer

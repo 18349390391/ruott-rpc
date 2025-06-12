@@ -1,0 +1,2 @@
+no=com.ruott.rpc.retry.NoRetryStrategy
+fixedTimeRetry=com.ruott.rpc.retry.FixedTimeRetryStrategy

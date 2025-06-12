@@ -1,0 +1,11 @@
+ruott:
+  rpc:
+    serverName: order-server
+    host: 127.0.0.1
+    port: 8081
+    mock: false
+    serializer: messagePack
+    registry-config:
+      registrar: etcd
+      address: http://127.0.0.1:2379
+      timeout: 15000

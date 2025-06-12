@@ -1,0 +1,15 @@
+ruott:
+  rpc:
+    serverName: user-server
+    host: 127.0.0.1
+    port: 28000
+    mock: false
+    serializer: messagePack
+    loadBalance: consistentHash
+    retryConfig:
+      strategy: 'fixedTimeRetry'
+      fixedTimeRetry:
+        retryNumber: 3
+        retryTime: 3
+
+
